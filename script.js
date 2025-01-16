@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const menuToggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('nav');
 
@@ -80,4 +79,4 @@ function enviarEmail(event) {
 const form = document.querySelector("#contact-form");
 form.removeEventListener("submit", enviarEmail);
 form.addEventListener("submit", enviarEmail);
->>>>>>> 837888c47fd9f740ff195cfcf177caa52935f181
+
