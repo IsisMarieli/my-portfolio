@@ -1,0 +1,22 @@
+<<<<<<< HEAD
+{
+    "version": 2,
+    "builds": [
+      { "src": "index.html", "use": "@vercel/static" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/" }
+    ]
+  }
+=======
+{
+    "version": 2,
+    "builds": [
+      { "src": "index.html", "use": "@vercel/static" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/" }
+    ]
+  }
+>>>>>>> 837888c47fd9f740ff195cfcf177caa52935f181
+  
