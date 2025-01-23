@@ -447,47 +447,6 @@ header h1,
     transition: all 0.5s ease-in-out;
 }
 
-@media (max-width: 1110px) {
-    html {
-        scroll-behavior: smooth;
-        font-size: 90%;
-    }
-
-    .container-menu {
-        width: 90%;
-        justify-content: flex-end;
-    }
-
-    .container-boxs {
-        justify-content: space-around;
-        gap: 10px;
-    }
-
-    .container-home h1 {
-        font-size: 40px;
-    }
-
-    header h1 {
-        font-size: 20px;
-        width: 30vh;
-    }
-
-    .container-about {
-        gap: 10px;
-    }
-
-    .iconEmbarque,
-    .iconResidencia {
-        width: 150px;
-    }
-
-    .fotoPerfil {
-        width: 260px;
-        padding: 20px;
-    }
-
-}
-
 @media (max-width: 767px) {
     html {
         scroll-behavior: smooth;
@@ -575,7 +534,7 @@ header h1,
     }
 
     .fotoPerfil {
-        width: 220px;
+        width: 180px;
         padding: 10px;
     }
 
@@ -584,7 +543,6 @@ header h1,
     }
 
 }
-
 
 @media (max-width: 548px) {
     html {
@@ -668,5 +626,4 @@ header h1,
         width: 220px;
         padding: 20px;
     }
-
 }
